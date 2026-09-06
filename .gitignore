@@ -1,0 +1,14 @@
+# Internal project notes — not part of the public site
+CLAUDE.md
+
+# Local preview screenshots — dev artifacts, not part of the site
+preview-screenshots/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+*.swp
