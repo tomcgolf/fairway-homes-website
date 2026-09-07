@@ -76,8 +76,14 @@ const FAIRWAY_PROPERTIES = [
       "New carpet in the living room and third bedroom"
     ],
     purchaseTermsSummary: "Owner financing may be available. Down payment, monthly payment and other terms depend on buyer qualification and the final agreement.",
-    mainImage: "",
-    galleryImages: [],
+    mainImage: "assets/photos/mount-holly/exterior.jpg",
+    galleryImages: [
+      "assets/photos/mount-holly/exterior.jpg",
+      "assets/photos/mount-holly/living-1.jpg",
+      "assets/photos/mount-holly/living-2.jpg",
+      "assets/photos/mount-holly/room-1.jpg",
+      "assets/photos/mount-holly/room-2.jpg"
+    ],
     featured: true,
     displayOrder: 1,
     lastUpdated: "2026-09-07"
