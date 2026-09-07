@@ -67,6 +67,13 @@
     return '';
   }
 
+  function fwClosedYear(p) {
+    if (p.status === 'sold' && p.closedYear) {
+      return '<p class="closed-year">Closed ' + fwEsc(p.closedYear) + '</p>';
+    }
+    return '';
+  }
+
   function fwRenderCard(p) {
     var badge = fwStatusBadge(p.status);
     return '<div class="location-card">' +
@@ -74,6 +81,7 @@
       '<div class="location-body">' +
       '<span class="status-badge ' + badge.cls + '">' + fwEsc(badge.label) + '</span>' +
       '<h3>' + fwEsc(p.city + ', ' + p.state) + '</h3>' +
+      fwClosedYear(p) +
       fwCardCTA(p) +
       '</div></div>';
   }

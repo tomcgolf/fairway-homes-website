@@ -307,6 +307,7 @@ section.deep .btn-ghost:hover{ background: rgba(255,255,255,0.08); }
   flex: 1;
 }
 .location-body h3{ margin-bottom: 0; }
+.location-body .closed-year{ margin: 0; font-size: 0.9rem; color: var(--neutral-600); }
 .location-body .btn{ margin-top: auto; }
 .status-badge{
   display: inline-block;

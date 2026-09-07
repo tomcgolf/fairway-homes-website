@@ -46,6 +46,8 @@
  * mainImage             Path to an image file (e.g. "assets/photos/mount-holly-1.jpg").
  *                        Leave "" until a real, screened photo exists.
  * galleryImages         A list of additional image paths. Leave as [].
+ * closedYear            "sold" status only — the closing year as a string
+ *                        (e.g. "2023"), shown on the card. Leave "" otherwise.
  * featured              true/false — whether this property is eligible to
  *                        show in the homepage preview section.
  * displayOrder          A number controlling sort order within its status
@@ -125,5 +127,105 @@ const FAIRWAY_PROPERTIES = [
     featured: true,
     displayOrder: 3,
     lastUpdated: "2026-09-04"
+  },
+  {
+    id: "kannapolis-nc-1",
+    status: "sold",
+    city: "Kannapolis",
+    state: "NC",
+    priceDisplay: "",
+    bedrooms: "",
+    bathrooms: "",
+    squareFeet: "",
+    propertyType: "",
+    shortDescription: "",
+    keyFeatures: [],
+    purchaseTermsSummary: "",
+    mainImage: "assets/photos/kannapolis/exterior.jpg",
+    galleryImages: [],
+    closedYear: "2023",
+    featured: false,
+    displayOrder: 1,
+    lastUpdated: "2026-09-07"
+  },
+  {
+    id: "york-sc-1",
+    status: "sold",
+    city: "York",
+    state: "SC",
+    priceDisplay: "",
+    bedrooms: "",
+    bathrooms: "",
+    squareFeet: "",
+    propertyType: "",
+    shortDescription: "",
+    keyFeatures: [],
+    purchaseTermsSummary: "",
+    mainImage: "assets/photos/york/exterior.jpg",
+    galleryImages: [],
+    closedYear: "2025",
+    featured: false,
+    displayOrder: 2,
+    lastUpdated: "2026-09-07"
+  },
+  {
+    id: "lancaster-sc-2",
+    status: "sold",
+    city: "Lancaster",
+    state: "SC",
+    priceDisplay: "",
+    bedrooms: "",
+    bathrooms: "",
+    squareFeet: "",
+    propertyType: "",
+    shortDescription: "",
+    keyFeatures: [],
+    purchaseTermsSummary: "",
+    mainImage: "assets/photos/lancaster/exterior.jpg",
+    galleryImages: [],
+    closedYear: "2025",
+    featured: false,
+    displayOrder: 3,
+    lastUpdated: "2026-09-07"
+  },
+  {
+    id: "greensboro-nc-1",
+    status: "sold",
+    city: "Greensboro",
+    state: "NC",
+    priceDisplay: "",
+    bedrooms: "",
+    bathrooms: "",
+    squareFeet: "",
+    propertyType: "",
+    shortDescription: "",
+    keyFeatures: [],
+    purchaseTermsSummary: "",
+    mainImage: "assets/photos/greensboro/exterior.jpg",
+    galleryImages: [],
+    closedYear: "2024",
+    featured: false,
+    displayOrder: 4,
+    lastUpdated: "2026-09-07"
+  },
+  {
+    id: "spartanburg-sc-1",
+    status: "sold",
+    city: "Spartanburg",
+    state: "SC",
+    priceDisplay: "",
+    bedrooms: "",
+    bathrooms: "",
+    squareFeet: "",
+    propertyType: "",
+    shortDescription: "",
+    keyFeatures: [],
+    purchaseTermsSummary: "",
+    mainImage: "assets/photos/spartanburg/exterior.jpg",
+    galleryImages: [],
+    closedYear: "2025",
+    featured: false,
+    displayOrder: 5,
+    lastUpdated: "2026-09-07"
   }
 ];
