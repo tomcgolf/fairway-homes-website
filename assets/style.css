@@ -133,8 +133,16 @@ section.deep .btn-ghost:hover{ background: rgba(255,255,255,0.08); }
 }
 .wordmark span{ color: var(--gold-muted); }
 .site-header .wordmark{ font-size: 2rem; }
+.brand-lockup{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.brand-mark{ flex: none; width: 34px; height: 34px; }
 @media (max-width: 860px){
   .site-header .wordmark{ font-size: 1.55rem; }
+  .brand-mark{ width: 26px; height: 26px; }
 }
 .main-nav{
   display: flex;

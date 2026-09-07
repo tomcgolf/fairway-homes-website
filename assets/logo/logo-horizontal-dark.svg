@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150">
+  <title>Fairway Homes — reversed for dark backgrounds</title>
+  <circle cx="75" cy="75" r="70" fill="#faf6ee"/>
+  <circle cx="75" cy="75" r="70" fill="none" stroke="#b6913f" stroke-width="3.5"/>
+  <polygon points="75,45 105,75 45,75" fill="#1f3a2e"/>
+  <line x1="48" y1="96" x2="102" y2="96" stroke="#b6913f" stroke-width="7.5" stroke-linecap="round"/>
+  <text x="170" y="93" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" fill="#faf6ee">Fairway</text>
+  <text x="420" y="93" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" fill="#cfa95c">Homes</text>
+</svg>
